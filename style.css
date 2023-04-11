@@ -1,0 +1,348 @@
+* {
+    margin: 0;
+    max-width: 1440px;
+    padding: 0;
+    box-sizing: botrder-box;
+}
+ul {
+    list-style-type: none;
+}
+body {
+    font-family: "Poppins", sans-serif;
+}
+a {
+    text-decoration: none;
+    margin-top: 30px;
+}
+/* Header */
+
+.header {
+    max-width: 1440px;
+    height: 133px;
+    background-color: white;
+}
+.navigation {
+    max-width: 1440px;
+    height: 100%;
+    background-color: white;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.navigation__links {
+    display: flex;
+    gap: 22px;
+    align-items: center;
+    margin-left: 250px;
+    margin-right: 7px;
+    gap: 18px;
+}
+
+.navigation__links a {
+    color: #8a94a6;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: left;
+}
+.navigation__links img {
+    margin-left: 15px;
+}
+
+.btn-blue__large {
+    background-color: #377dff;
+    width: 179px;
+    height: 57px;
+    left: 1161px;
+    top: 38px;
+    border: #377dff;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+/* Hero section */
+
+.hero-section {
+    padding: 100px;
+    max-width: 1440px;
+    align-items: center;
+    height: 864px;
+    display: flex;
+}
+
+h1 {
+    color: #323b4b;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 73px;
+    width: 528px;
+    height: 219px;
+    margin-bottom: 33px;
+}
+.hero-section p {
+    color: #8a94a6;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 35px;
+    margin-bottom: 30px;
+    margin-right: 145px;
+}
+.hero-section a {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #377dff;
+}
+.hero-section__img {
+    width: 100%;
+    height: auto;
+}
+/* Job Offer */
+
+.offer__sections {
+    max-width: 1440px;
+    padding: 100px;
+    height: 1099px;
+    background-color: #fafbfc;
+}
+h2 {
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 73px;
+    color: #323b4b;
+    text-align: center;
+    margin-bottom: 35px;
+}
+.job-offer__heading p {
+    color: #8a94a6;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 35px;
+    text-align: center;
+    margin-bottom: 80px;
+}
+/* Card */
+
+.job-offer__cards {
+    max-width: 1440px;
+    display: flex;
+    gap: 35px;
+    flex-wrap: wrap;
+}
+.job-offer__cards h3 {
+    margin-left: 31px;
+    margin-top: 29px;
+    color: #323b4b;
+}
+.card {
+    height: 285px;
+    background-color: white;
+    border-radius: 15px;
+    flex-wrap: wrap;
+}
+.card__shadow {
+    height: 285px;
+    background-color: white;
+    border-radius: 15px;
+    flex-wrap: wrap;
+    box-shadow: 0px 50px 77px;
+    color: rgba(176, 183, 195, 0.22);
+}
+
+.card__img {
+    padding-left: 31px;
+    padding-top: 32px;
+}
+
+.card__text {
+    color: #8a94a6;
+    font-weight: 500;
+    font-size: 18px;
+    align-items: center;
+    width: 500px;
+    height: 67px;
+    margin-left: 31px;
+    margin-top: 21px;
+}
+/* dream job */
+
+.dream-job {
+    max-width: 1440px;
+    display: flex;
+    height: 900px;
+    background-color: white;
+}
+.dream-job h2 {
+    width: 500px;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 73px;
+    text-align: left;
+    align-items: center;
+    display: flex;
+    padding-top: 269px;
+}
+.dream-job p {
+    color: #8a94a6;
+    font-weight: 500;
+    font-size: 18px;
+    text-align: left;
+    width: 450px;
+    height: 67px;
+}
+.dream-job__left {
+    width: 100%;
+    height: auto;
+    padding-top: 135px;
+    display: flex;
+}
+/* Job positiion  */
+.job-position__section {
+    height: 1231px;
+    background-color: #fafbfc;
+}
+
+.job-position__section h2 {
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 73px;
+    padding-top: 108px;
+}
+.job-position__section p {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 35px;
+    color: #8a94a6;
+    text-align: center;
+}
+
+.job-position__part {
+    color: #323b4b;
+    display: flex;
+    gap: 150px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    padding-left: 300px;
+    margin-top: 77px;
+    padding-bottom: 21px;
+}
+/* Card */
+.job-position__card {
+    background-color: white;
+    width: 880px;
+    height: 115px;
+    display: flex;
+    align-items: center;
+    margin-left: 220px;
+    margin-right: 280px;
+    margin-bottom: 25px;
+    border-radius: 15px;
+}
+.job-position-shadow__card {
+    background-color: white;
+    width: 880px;
+    height: 115px;
+    display: flex;
+    align-items: center;
+    margin-left: 220px;
+    margin-right: 280px;
+    margin-bottom: 25px;
+    border-radius: 15px;
+    box-shadow: 0px 50px 77px;
+    color: rgba(176, 183, 195, 0.22);
+}
+.job-position-shadow__card h4 {
+    margin-left: 200px;
+}
+#top {
+    color: #323b4b;
+    font-weight: 600;
+    font-size: 20px;
+    margin-left: 32px;
+}
+h4 {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #8a94a6;
+    margin-left: 172px;
+}
+.btn-blue__long {
+    width: 604px;
+    height: 66px;
+    background-color: #e5f1ff;
+    text-align: center;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #377dff;
+    margin-left: 380px;
+    margin-top: 92px;
+    border: #e5f1ff;
+}
+/* footer */
+.footer__section {
+    max-width: 1440px;
+    margin: 0 auto;
+    height: 500px;
+    display: flex;
+    background-color: white;
+}
+.footer__logo {
+    margin-top: 132px;
+    margin-left: 101px;
+}
+.footer__section h3 {
+    margin-top: 147px;
+    margin-left: 100px;
+}
+#logo__paragraph {
+    width: 282px;
+    height: 110px;
+    margin-left: 99.53px;
+    margin-top: 27px;
+    color: #8a94a6;
+    font-size: 20px;
+}
+.social__icons {
+    margin-left: 101px;
+    margin-top: 31px;
+    border-radius: 10px;
+}
+.logo__social {
+    border-radius: 10px;
+}
+.footer__section p {
+    margin-bottom: 19px;
+    margin-top: 15px;
+    color: #8a94a6;
+    font-size: 18px;
+    margin-left: 100px;
+}
+
+h5 {
+    height: 143px;
+    font-size: 15px;
+    color: #8a94a6;
+    margin-top: 100px;
+    width: 445px;
+    margin-left: 100px;
+}
+.portfolio {
+    margin-right: 50px;
+}
+.home {
+    margin-left: 50px;
+}
+.social {
+    width: 400px;
+}
